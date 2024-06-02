@@ -1,0 +1,30 @@
+.body{
+    background-color: black;
+}
+.container{
+    position: fixed;
+}
+.column1{
+    left: 25%;
+    position: fixed;
+    font-size: 200%;
+    color: red;
+}
+.column2{
+    left: 30%;
+    position: fixed;
+    bottom: 50%;
+}
+.column2 a{
+    color: red;
+    text-decoration: none;
+    font-size: 200%;
+
+}
+.column3 button{
+    left: 40%;
+    position: fixed;
+    bottom: 70%;
+    background-color: red;
+    font-size: large;
+}

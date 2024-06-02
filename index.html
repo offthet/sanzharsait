@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.2list.css">
+    <body>
+        <style>
+            *{
+                background-color: black;
+            }
+        </style>
+        <div class="container">
+            <div class="column1">
+        <pre>
+             Инструкция!
+        1.Cперва нажми на кнопку
+            2.Открой сайт
+        </pre>
+            </div>
+            <div class="column2" id="column2" style="display: none;">
+                <a href="index1.html" target="_blank">Нажми сюда после нажатие на кнопку</a>
+            </div>
+            <div class="column3">
+                <button onclick="playAudio()">Нажми сюда </button>
+            <audio id="myAudio" src="horror.mp3.mp3"></audio>
+            <script>
+                function playAudio(){
+                    var audio=document.getElementById("myAudio");
+                    audio.play();
+                    var column2=document.getElementById("column2");
+                    column2.style.display="block";
+                }
+            </script>
+            </div>
+        </div>
+    </body>
+</html>
